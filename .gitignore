@@ -1,0 +1,12 @@
+.env
+__pycache__/
+*.pyc
+.pytest_cache/
+mlflow.db
+mlruns/
+data/
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+logs/
+*.egg-info/

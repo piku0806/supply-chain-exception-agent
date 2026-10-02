@@ -1,0 +1,26 @@
+name: supply_chain
+version: "1.0.0"
+config-version: 2
+profile: supply_chain
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+
+vars:
+  # Fixed "now" so local runs are reproducible. Use --vars '{as_of: now}' in production.
+  as_of: "2026-09-30 08:00:00"
+  stuck_after_hours: 48
+
+seeds:
+  supply_chain:
+    +schema: bronze
+models:
+  supply_chain:
+    silver:
+      +schema: silver
+      +materialized: table
+    gold:
+      +schema: gold
+      +materialized: table

@@ -1,0 +1,25 @@
+origin,destination,carrier,cost_per_mile_usd,expedite_days
+ATL,CHI,GlobalFreight,2.07,1
+ATL,CHI,SwiftHaul,2.13,1
+ATL,CHI,BlueLine Express,2.31,2
+ATL,CHI,Prairie Logistics,3.09,1
+ATL,DAL,GlobalFreight,2.22,2
+ATL,DAL,SwiftHaul,1.83,2
+ATL,DAL,BlueLine Express,2.42,2
+ATL,DAL,Prairie Logistics,3.21,3
+CHI,NYC,GlobalFreight,3.6,3
+CHI,NYC,SwiftHaul,3.05,1
+CHI,NYC,BlueLine Express,2.39,2
+CHI,NYC,Prairie Logistics,1.9,3
+DAL,LAX,GlobalFreight,1.93,3
+DAL,LAX,SwiftHaul,2.13,2
+DAL,LAX,BlueLine Express,3.27,1
+DAL,LAX,Prairie Logistics,2.02,2
+NYC,BOS,GlobalFreight,2.49,3
+NYC,BOS,SwiftHaul,2.24,1
+NYC,BOS,BlueLine Express,2.16,1
+NYC,BOS,Prairie Logistics,2.74,2
+CHI,DEN,GlobalFreight,2.65,2
+CHI,DEN,SwiftHaul,3.49,2
+CHI,DEN,BlueLine Express,2.93,1
+CHI,DEN,Prairie Logistics,3.14,1

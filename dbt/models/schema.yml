@@ -1,0 +1,36 @@
+version: 2
+models:
+  - name: stg_orders
+    columns:
+      - name: order_id
+        tests: [unique, not_null]
+      - name: customer_tier
+        tests:
+          - accepted_values: {arguments: {values: ['strategic', 'standard']}}
+  - name: stg_shipments
+    columns:
+      - name: shipment_id
+        tests: [unique, not_null]
+      - name: carrier
+        tests:
+          - accepted_values: {arguments: {values: ['GlobalFreight', 'SwiftHaul', 'BlueLine Express', 'Prairie Logistics']}}
+      - name: order_id
+        tests:
+          - relationships: {arguments: {to: ref('stg_orders'), field: order_id}}
+  - name: stg_carrier_events
+    columns:
+      - name: event_status
+        tests:
+          - accepted_values: {arguments: {values: ['PICKED_UP', 'IN_TRANSIT', 'DELIVERED', 'DAMAGED', 'ADDRESS_EXCEPTION']}}
+  - name: fct_shipment_status
+    columns:
+      - name: shipment_id
+        tests: [unique, not_null]
+  - name: fct_shipment_exceptions
+    columns:
+      - name: shipment_id
+        tests: [unique, not_null]
+      - name: exception_type
+        tests:
+          - not_null
+          - accepted_values: {arguments: {values: ['DAMAGED', 'ADDRESS_ISSUE', 'STUCK_IN_TRANSIT', 'LATE_IN_TRANSIT', 'AT_RISK']}}

@@ -1,0 +1,241 @@
+order_id,customer_id,customer_name,customer_tier,sku,quantity,order_value,promised_delivery_at
+O0001,C002,Fabrikam Industrial,strategic,SKU-100,19,3420,2026-09-30 15:32:03
+O0002,C005,Tailspin Toys,standard,SKU-100,12,2160,2026-09-29 22:35:20
+O0003,C005,Tailspin Toys,standard,SKU-500,25,65000,2026-09-25 20:16:02
+O0004,C002,Fabrikam Industrial,strategic,SKU-500,12,31200,2026-10-02 10:39:57
+O0005,C008,Coho Vineyard,standard,SKU-400,31,29450,2026-10-01 15:30:55
+O0006,C002,Fabrikam Industrial,strategic,SKU-400,26,24700,2026-09-27 08:03:38
+O0007,C003,Litware Outdoor,standard,SKU-500,8,20800,2026-09-25 16:17:58
+O0008,C001,Contoso Retail,strategic,SKU-200,38,15960,2026-09-25 14:41:27
+O0009,C004,Adventure Works,standard,SKU-300,27,1620,2026-09-30 02:37:39
+O0010,C002,Fabrikam Industrial,strategic,SKU-500,17,44200,2026-10-01 00:17:44
+O0011,C001,Contoso Retail,strategic,SKU-100,5,900,2026-09-25 00:40:44
+O0012,C001,Contoso Retail,strategic,SKU-100,17,3060,2026-09-28 16:55:45
+O0013,C005,Tailspin Toys,standard,SKU-200,5,2100,2026-09-25 11:24:46
+O0014,C007,Proseware Medical,strategic,SKU-100,38,6840,2026-09-28 13:38:46
+O0015,C002,Fabrikam Industrial,strategic,SKU-100,31,5580,2026-10-02 05:03:17
+O0016,C005,Tailspin Toys,standard,SKU-100,10,1800,2026-09-25 06:29:54
+O0017,C001,Contoso Retail,strategic,SKU-100,23,4140,2026-10-02 11:02:14
+O0018,C001,Contoso Retail,strategic,SKU-300,15,900,2026-09-27 03:56:44
+O0019,C007,Proseware Medical,strategic,SKU-200,19,7980,2026-09-28 13:57:41
+O0020,C005,Tailspin Toys,standard,SKU-300,34,2040,2026-09-23 20:23:44
+O0021,C004,Adventure Works,standard,SKU-300,4,240,2026-10-02 19:39:17
+O0022,C004,Adventure Works,standard,SKU-400,26,24700,2026-09-27 14:26:05
+O0023,C002,Fabrikam Industrial,strategic,SKU-300,34,2040,2026-10-02 00:56:56
+O0024,C008,Coho Vineyard,standard,SKU-400,17,16150,2026-09-24 05:53:50
+O0025,C006,Wide World Importers,strategic,SKU-400,34,32300,2026-09-26 04:58:10
+O0026,C002,Fabrikam Industrial,strategic,SKU-200,11,4620,2026-09-26 22:26:03
+O0027,C007,Proseware Medical,strategic,SKU-400,2,1900,2026-09-27 10:17:27
+O0028,C008,Coho Vineyard,standard,SKU-200,36,15120,2026-09-26 19:15:13
+O0029,C007,Proseware Medical,strategic,SKU-300,7,420,2026-09-25 11:11:56
+O0030,C002,Fabrikam Industrial,strategic,SKU-500,15,39000,2026-09-26 07:33:10
+O0031,C004,Adventure Works,standard,SKU-100,39,7020,2026-10-01 23:12:43
+O0032,C002,Fabrikam Industrial,strategic,SKU-400,25,23750,2026-09-27 19:42:32
+O0033,C008,Coho Vineyard,standard,SKU-200,31,13020,2026-09-30 23:22:30
+O0034,C008,Coho Vineyard,standard,SKU-400,30,28500,2026-10-01 07:58:33
+O0035,C006,Wide World Importers,strategic,SKU-100,36,6480,2026-10-02 04:55:32
+O0036,C005,Tailspin Toys,standard,SKU-200,33,13860,2026-09-28 22:53:27
+O0037,C005,Tailspin Toys,standard,SKU-100,17,3060,2026-09-27 16:18:40
+O0038,C005,Tailspin Toys,standard,SKU-100,12,2160,2026-09-28 03:23:36
+O0039,C004,Adventure Works,standard,SKU-400,9,8550,2026-09-27 07:52:57
+O0040,C002,Fabrikam Industrial,strategic,SKU-500,4,10400,2026-09-26 16:50:32
+O0041,C007,Proseware Medical,strategic,SKU-400,7,6650,2026-09-29 08:41:49
+O0042,C007,Proseware Medical,strategic,SKU-500,2,5200,2026-09-29 07:41:50
+O0043,C004,Adventure Works,standard,SKU-200,21,8820,2026-09-27 03:20:26
+O0044,C008,Coho Vineyard,standard,SKU-200,31,13020,2026-09-29 13:44:54
+O0045,C008,Coho Vineyard,standard,SKU-500,32,83200,2026-09-29 03:24:31
+O0046,C003,Litware Outdoor,standard,SKU-400,4,3800,2026-09-26 10:34:52
+O0047,C007,Proseware Medical,strategic,SKU-300,33,1980,2026-09-27 14:02:17
+O0048,C001,Contoso Retail,strategic,SKU-300,24,1440,2026-10-02 14:18:13
+O0049,C003,Litware Outdoor,standard,SKU-100,30,5400,2026-09-28 09:39:23
+O0050,C007,Proseware Medical,strategic,SKU-300,2,120,2026-09-26 02:14:02
+O0051,C002,Fabrikam Industrial,strategic,SKU-100,21,3780,2026-09-27 21:46:00
+O0052,C008,Coho Vineyard,standard,SKU-300,23,1380,2026-09-24 15:34:11
+O0053,C005,Tailspin Toys,standard,SKU-500,26,67600,2026-10-01 21:53:50
+O0054,C005,Tailspin Toys,standard,SKU-400,9,8550,2026-09-25 06:59:56
+O0055,C005,Tailspin Toys,standard,SKU-100,25,4500,2026-09-29 01:16:55
+O0056,C001,Contoso Retail,strategic,SKU-100,23,4140,2026-09-26 03:27:23
+O0057,C003,Litware Outdoor,standard,SKU-200,36,15120,2026-09-30 21:34:30
+O0058,C002,Fabrikam Industrial,strategic,SKU-400,34,32300,2026-09-26 15:38:32
+O0059,C005,Tailspin Toys,standard,SKU-500,39,101400,2026-09-29 14:17:43
+O0060,C007,Proseware Medical,strategic,SKU-300,18,1080,2026-09-27 23:53:18
+O0061,C002,Fabrikam Industrial,strategic,SKU-400,24,22800,2026-09-24 10:54:33
+O0062,C004,Adventure Works,standard,SKU-400,37,35150,2026-09-27 15:45:54
+O0063,C001,Contoso Retail,strategic,SKU-100,35,6300,2026-09-29 06:21:15
+O0064,C008,Coho Vineyard,standard,SKU-400,19,18050,2026-09-28 21:35:05
+O0065,C005,Tailspin Toys,standard,SKU-300,22,1320,2026-09-29 14:32:00
+O0066,C006,Wide World Importers,strategic,SKU-500,29,75400,2026-09-27 19:15:43
+O0067,C002,Fabrikam Industrial,strategic,SKU-400,21,19950,2026-09-30 22:47:57
+O0068,C003,Litware Outdoor,standard,SKU-100,13,2340,2026-09-29 21:21:12
+O0069,C008,Coho Vineyard,standard,SKU-400,4,3800,2026-09-24 18:20:01
+O0070,C008,Coho Vineyard,standard,SKU-100,23,4140,2026-09-28 13:04:19
+O0071,C001,Contoso Retail,strategic,SKU-300,6,360,2026-09-29 02:10:31
+O0072,C003,Litware Outdoor,standard,SKU-500,7,18200,2026-09-27 08:43:38
+O0073,C008,Coho Vineyard,standard,SKU-200,16,6720,2026-10-01 04:15:29
+O0074,C008,Coho Vineyard,standard,SKU-100,28,5040,2026-09-24 14:12:14
+O0075,C007,Proseware Medical,strategic,SKU-200,14,5880,2026-09-24 09:54:27
+O0076,C004,Adventure Works,standard,SKU-400,24,22800,2026-10-02 09:08:08
+O0077,C001,Contoso Retail,strategic,SKU-100,3,540,2026-09-26 17:40:03
+O0078,C004,Adventure Works,standard,SKU-200,20,8400,2026-09-27 14:34:43
+O0079,C001,Contoso Retail,strategic,SKU-400,25,23750,2026-09-28 19:09:10
+O0080,C008,Coho Vineyard,standard,SKU-400,13,12350,2026-09-27 17:55:36
+O0081,C004,Adventure Works,standard,SKU-300,24,1440,2026-09-30 12:15:49
+O0082,C002,Fabrikam Industrial,strategic,SKU-400,40,38000,2026-09-29 02:28:22
+O0083,C001,Contoso Retail,strategic,SKU-100,27,4860,2026-09-24 17:37:51
+O0084,C006,Wide World Importers,strategic,SKU-300,30,1800,2026-09-29 07:59:24
+O0085,C005,Tailspin Toys,standard,SKU-400,14,13300,2026-09-26 14:01:24
+O0086,C003,Litware Outdoor,standard,SKU-300,34,2040,2026-09-24 11:01:58
+O0087,C008,Coho Vineyard,standard,SKU-500,28,72800,2026-10-01 18:26:00
+O0088,C003,Litware Outdoor,standard,SKU-300,12,720,2026-09-24 21:18:48
+O0089,C003,Litware Outdoor,standard,SKU-500,40,104000,2026-09-24 19:39:06
+O0090,C004,Adventure Works,standard,SKU-400,21,19950,2026-09-26 23:31:22
+O0091,C002,Fabrikam Industrial,strategic,SKU-300,17,1020,2026-09-30 13:26:08
+O0092,C003,Litware Outdoor,standard,SKU-400,34,32300,2026-09-26 08:40:06
+O0093,C005,Tailspin Toys,standard,SKU-500,2,5200,2026-10-01 16:40:38
+O0094,C002,Fabrikam Industrial,strategic,SKU-200,8,3360,2026-09-26 01:50:27
+O0095,C003,Litware Outdoor,standard,SKU-300,22,1320,2026-09-24 09:54:51
+O0096,C001,Contoso Retail,strategic,SKU-500,32,83200,2026-09-27 16:50:03
+O0097,C003,Litware Outdoor,standard,SKU-400,15,14250,2026-09-24 09:56:42
+O0098,C005,Tailspin Toys,standard,SKU-500,32,83200,2026-09-30 11:04:57
+O0099,C007,Proseware Medical,strategic,SKU-300,11,660,2026-09-29 09:19:24
+O0100,C004,Adventure Works,standard,SKU-100,35,6300,2026-10-03 09:17:30
+O0101,C005,Tailspin Toys,standard,SKU-100,7,1260,2026-09-27 06:49:44
+O0102,C001,Contoso Retail,strategic,SKU-300,38,2280,2026-09-24 22:35:42
+O0103,C001,Contoso Retail,strategic,SKU-300,20,1200,2026-10-02 08:11:56
+O0104,C005,Tailspin Toys,standard,SKU-500,38,98800,2026-09-27 06:38:54
+O0105,C005,Tailspin Toys,standard,SKU-300,16,960,2026-09-29 18:27:03
+O0106,C002,Fabrikam Industrial,strategic,SKU-500,30,78000,2026-10-01 04:04:01
+O0107,C008,Coho Vineyard,standard,SKU-100,34,6120,2026-09-29 23:29:59
+O0108,C002,Fabrikam Industrial,strategic,SKU-500,5,13000,2026-10-03 13:31:33
+O0109,C003,Litware Outdoor,standard,SKU-300,9,540,2026-09-28 08:06:58
+O0110,C002,Fabrikam Industrial,strategic,SKU-100,28,5040,2026-09-29 18:54:14
+O0111,C005,Tailspin Toys,standard,SKU-200,38,15960,2026-09-30 19:40:17
+O0112,C006,Wide World Importers,strategic,SKU-400,28,26600,2026-09-30 15:12:07
+O0113,C002,Fabrikam Industrial,strategic,SKU-400,25,23750,2026-10-03 09:29:11
+O0114,C002,Fabrikam Industrial,strategic,SKU-400,17,16150,2026-09-29 11:05:13
+O0115,C004,Adventure Works,standard,SKU-300,22,1320,2026-09-28 01:14:41
+O0116,C006,Wide World Importers,strategic,SKU-300,33,1980,2026-09-28 21:59:27
+O0117,C004,Adventure Works,standard,SKU-100,11,1980,2026-09-28 12:49:49
+O0118,C005,Tailspin Toys,standard,SKU-100,34,6120,2026-09-25 23:32:30
+O0119,C004,Adventure Works,standard,SKU-300,7,420,2026-10-03 00:55:33
+O0120,C004,Adventure Works,standard,SKU-500,32,83200,2026-09-24 23:28:17
+O0121,C003,Litware Outdoor,standard,SKU-500,17,44200,2026-09-27 01:53:05
+O0122,C007,Proseware Medical,strategic,SKU-300,3,180,2026-09-27 04:09:22
+O0123,C003,Litware Outdoor,standard,SKU-400,22,20900,2026-10-02 01:19:47
+O0124,C007,Proseware Medical,strategic,SKU-100,20,3600,2026-09-26 05:02:58
+O0125,C005,Tailspin Toys,standard,SKU-200,33,13860,2026-09-28 22:35:46
+O0126,C006,Wide World Importers,strategic,SKU-500,14,36400,2026-10-02 07:45:43
+O0127,C003,Litware Outdoor,standard,SKU-500,3,7800,2026-09-24 19:37:59
+O0128,C002,Fabrikam Industrial,strategic,SKU-400,40,38000,2026-09-29 06:59:20
+O0129,C006,Wide World Importers,strategic,SKU-400,8,7600,2026-09-30 15:13:02
+O0130,C006,Wide World Importers,strategic,SKU-300,23,1380,2026-09-28 09:41:33
+O0131,C004,Adventure Works,standard,SKU-500,13,33800,2026-10-01 00:28:41
+O0132,C004,Adventure Works,standard,SKU-300,6,360,2026-09-26 00:54:05
+O0133,C008,Coho Vineyard,standard,SKU-500,13,33800,2026-09-24 00:35:19
+O0134,C003,Litware Outdoor,standard,SKU-500,12,31200,2026-10-01 15:22:46
+O0135,C008,Coho Vineyard,standard,SKU-400,12,11400,2026-09-26 01:38:25
+O0136,C006,Wide World Importers,strategic,SKU-500,4,10400,2026-09-29 04:32:38
+O0137,C006,Wide World Importers,strategic,SKU-500,29,75400,2026-09-26 03:53:26
+O0138,C002,Fabrikam Industrial,strategic,SKU-200,28,11760,2026-09-25 11:07:20
+O0139,C002,Fabrikam Industrial,strategic,SKU-100,27,4860,2026-09-26 22:16:49
+O0140,C007,Proseware Medical,strategic,SKU-200,33,13860,2026-09-25 19:01:04
+O0141,C001,Contoso Retail,strategic,SKU-400,14,13300,2026-09-25 08:02:30
+O0142,C002,Fabrikam Industrial,strategic,SKU-100,2,360,2026-10-02 04:06:01
+O0143,C005,Tailspin Toys,standard,SKU-200,26,10920,2026-10-01 06:02:38
+O0144,C007,Proseware Medical,strategic,SKU-300,29,1740,2026-09-29 17:27:05
+O0145,C004,Adventure Works,standard,SKU-400,26,24700,2026-09-27 14:05:06
+O0146,C005,Tailspin Toys,standard,SKU-200,4,1680,2026-09-29 12:39:05
+O0147,C002,Fabrikam Industrial,strategic,SKU-300,29,1740,2026-10-01 08:11:13
+O0148,C005,Tailspin Toys,standard,SKU-200,25,10500,2026-09-25 14:28:51
+O0149,C003,Litware Outdoor,standard,SKU-300,12,720,2026-09-24 05:34:09
+O0150,C007,Proseware Medical,strategic,SKU-200,22,9240,2026-09-25 01:09:56
+O0151,C005,Tailspin Toys,standard,SKU-300,7,420,2026-10-02 18:22:27
+O0152,C006,Wide World Importers,strategic,SKU-100,23,4140,2026-09-25 14:48:10
+O0153,C006,Wide World Importers,strategic,SKU-400,7,6650,2026-09-29 12:53:33
+O0154,C005,Tailspin Toys,standard,SKU-200,6,2520,2026-09-25 04:53:34
+O0155,C001,Contoso Retail,strategic,SKU-200,22,9240,2026-09-26 18:55:26
+O0156,C003,Litware Outdoor,standard,SKU-100,2,360,2026-10-02 17:20:02
+O0157,C006,Wide World Importers,strategic,SKU-100,4,720,2026-10-02 09:43:48
+O0158,C008,Coho Vineyard,standard,SKU-400,37,35150,2026-10-03 02:06:17
+O0159,C006,Wide World Importers,strategic,SKU-400,19,18050,2026-09-30 02:56:56
+O0160,C001,Contoso Retail,strategic,SKU-200,38,15960,2026-09-24 21:13:04
+O0161,C008,Coho Vineyard,standard,SKU-500,21,54600,2026-10-01 12:15:19
+O0162,C003,Litware Outdoor,standard,SKU-100,35,6300,2026-09-30 15:47:14
+O0163,C006,Wide World Importers,strategic,SKU-200,39,16380,2026-09-30 05:24:29
+O0164,C002,Fabrikam Industrial,strategic,SKU-400,11,10450,2026-09-30 19:26:55
+O0165,C007,Proseware Medical,strategic,SKU-200,28,11760,2026-09-30 20:20:55
+O0166,C003,Litware Outdoor,standard,SKU-400,12,11400,2026-09-27 04:24:09
+O0167,C005,Tailspin Toys,standard,SKU-300,21,1260,2026-10-03 09:52:27
+O0168,C005,Tailspin Toys,standard,SKU-400,32,30400,2026-10-03 01:24:29
+O0169,C006,Wide World Importers,strategic,SKU-500,28,72800,2026-09-29 03:03:54
+O0170,C003,Litware Outdoor,standard,SKU-100,30,5400,2026-09-24 13:40:42
+O0171,C006,Wide World Importers,strategic,SKU-300,35,2100,2026-09-27 03:32:37
+O0172,C007,Proseware Medical,strategic,SKU-400,38,36100,2026-10-02 12:21:25
+O0173,C005,Tailspin Toys,standard,SKU-300,19,1140,2026-09-24 13:36:38
+O0174,C006,Wide World Importers,strategic,SKU-100,34,6120,2026-10-01 04:31:51
+O0175,C008,Coho Vineyard,standard,SKU-500,27,70200,2026-09-27 01:02:25
+O0176,C007,Proseware Medical,strategic,SKU-100,12,2160,2026-09-25 13:08:57
+O0177,C005,Tailspin Toys,standard,SKU-300,29,1740,2026-09-28 22:21:51
+O0178,C005,Tailspin Toys,standard,SKU-100,32,5760,2026-09-24 10:22:27
+O0179,C006,Wide World Importers,strategic,SKU-200,3,1260,2026-09-24 08:30:58
+O0180,C005,Tailspin Toys,standard,SKU-200,37,15540,2026-10-02 00:05:20
+O0181,C005,Tailspin Toys,standard,SKU-500,20,52000,2026-09-27 20:00:37
+O0182,C008,Coho Vineyard,standard,SKU-200,22,9240,2026-09-27 05:05:45
+O0183,C007,Proseware Medical,strategic,SKU-400,27,25650,2026-09-28 13:48:12
+O0184,C007,Proseware Medical,strategic,SKU-500,39,101400,2026-10-01 06:40:53
+O0185,C001,Contoso Retail,strategic,SKU-200,16,6720,2026-09-30 00:55:01
+O0186,C001,Contoso Retail,strategic,SKU-100,9,1620,2026-09-29 14:25:41
+O0187,C002,Fabrikam Industrial,strategic,SKU-500,9,23400,2026-09-27 03:54:32
+O0188,C006,Wide World Importers,strategic,SKU-200,2,840,2026-09-26 02:59:47
+O0189,C001,Contoso Retail,strategic,SKU-300,25,1500,2026-09-28 05:05:49
+O0190,C003,Litware Outdoor,standard,SKU-100,27,4860,2026-10-01 12:32:45
+O0191,C008,Coho Vineyard,standard,SKU-200,26,10920,2026-09-25 12:02:04
+O0192,C004,Adventure Works,standard,SKU-300,35,2100,2026-09-29 03:41:56
+O0193,C002,Fabrikam Industrial,strategic,SKU-400,22,20900,2026-09-23 14:05:25
+O0194,C001,Contoso Retail,strategic,SKU-100,27,4860,2026-09-27 02:20:42
+O0195,C008,Coho Vineyard,standard,SKU-300,37,2220,2026-09-26 17:48:06
+O0196,C003,Litware Outdoor,standard,SKU-400,10,9500,2026-10-01 22:10:47
+O0197,C003,Litware Outdoor,standard,SKU-400,2,1900,2026-09-29 03:08:30
+O0198,C007,Proseware Medical,strategic,SKU-400,40,38000,2026-09-30 12:11:11
+O0199,C005,Tailspin Toys,standard,SKU-300,10,600,2026-09-28 13:12:20
+O0200,C001,Contoso Retail,strategic,SKU-400,11,10450,2026-10-01 03:13:11
+O0201,C004,Adventure Works,standard,SKU-500,26,67600,2026-09-25 22:38:27
+O0202,C004,Adventure Works,standard,SKU-300,39,2340,2026-09-26 05:39:57
+O0203,C005,Tailspin Toys,standard,SKU-100,23,4140,2026-10-02 11:51:07
+O0204,C007,Proseware Medical,strategic,SKU-100,24,4320,2026-09-27 04:40:47
+O0205,C006,Wide World Importers,strategic,SKU-400,9,8550,2026-09-28 05:47:29
+O0206,C001,Contoso Retail,strategic,SKU-100,15,2700,2026-09-26 11:33:00
+O0207,C002,Fabrikam Industrial,strategic,SKU-100,13,2340,2026-09-27 22:42:27
+O0208,C001,Contoso Retail,strategic,SKU-100,24,4320,2026-09-30 08:52:24
+O0209,C003,Litware Outdoor,standard,SKU-300,25,1500,2026-09-30 18:51:36
+O0210,C004,Adventure Works,standard,SKU-100,13,2340,2026-09-26 14:19:00
+O0211,C002,Fabrikam Industrial,strategic,SKU-200,22,9240,2026-09-30 01:01:02
+O0212,C003,Litware Outdoor,standard,SKU-300,32,1920,2026-09-29 18:49:00
+O0213,C001,Contoso Retail,strategic,SKU-500,3,7800,2026-09-26 07:04:59
+O0214,C008,Coho Vineyard,standard,SKU-500,34,88400,2026-09-28 17:46:17
+O0215,C004,Adventure Works,standard,SKU-400,16,15200,2026-09-28 16:38:06
+O0216,C005,Tailspin Toys,standard,SKU-500,36,93600,2026-09-30 15:09:41
+O0217,C003,Litware Outdoor,standard,SKU-400,12,11400,2026-09-28 11:02:00
+O0218,C003,Litware Outdoor,standard,SKU-400,3,2850,2026-10-01 17:54:41
+O0219,C005,Tailspin Toys,standard,SKU-100,15,2700,2026-09-25 11:04:13
+O0220,C004,Adventure Works,standard,SKU-400,26,24700,2026-10-03 16:37:16
+O0221,C007,Proseware Medical,strategic,SKU-500,28,72800,2026-09-27 21:40:51
+O0222,C004,Adventure Works,standard,SKU-100,20,3600,2026-09-29 15:24:28
+O0223,C006,Wide World Importers,strategic,SKU-500,19,49400,2026-09-27 09:59:08
+O0224,C002,Fabrikam Industrial,strategic,SKU-200,30,12600,2026-10-02 23:32:35
+O0225,C002,Fabrikam Industrial,strategic,SKU-300,16,960,2026-09-28 15:45:29
+O0226,C005,Tailspin Toys,standard,SKU-200,4,1680,2026-09-26 14:30:04
+O0227,C002,Fabrikam Industrial,strategic,SKU-500,20,52000,2026-09-29 21:06:54
+O0228,C005,Tailspin Toys,standard,SKU-500,38,98800,2026-09-25 14:55:28
+O0229,C004,Adventure Works,standard,SKU-300,28,1680,2026-09-26 21:01:58
+O0230,C004,Adventure Works,standard,SKU-400,14,13300,2026-09-25 09:57:37
+O0231,C008,Coho Vineyard,standard,SKU-300,22,1320,2026-09-28 15:52:32
+O0232,C002,Fabrikam Industrial,strategic,SKU-500,31,80600,2026-10-02 17:35:19
+O0233,C006,Wide World Importers,strategic,SKU-300,27,1620,2026-10-01 07:18:09
+O0234,C003,Litware Outdoor,standard,SKU-500,36,93600,2026-09-26 03:47:31
+O0235,C006,Wide World Importers,strategic,SKU-500,37,96200,2026-10-01 15:57:12
+O0236,C005,Tailspin Toys,standard,SKU-400,11,10450,2026-09-30 05:56:57
+O0237,C006,Wide World Importers,strategic,SKU-500,35,91000,2026-09-30 09:52:01
+O0238,C007,Proseware Medical,strategic,SKU-500,7,18200,2026-09-26 13:54:25
+O0239,C006,Wide World Importers,strategic,SKU-400,31,29450,2026-09-28 04:05:48
+O0240,C005,Tailspin Toys,standard,SKU-300,28,1680,2026-09-29 06:04:16

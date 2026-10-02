@@ -1,0 +1,44 @@
+# Databricks Asset Bundle: deploys the loop as a scheduled Databricks Job.
+#   databricks bundle validate && databricks bundle deploy -t dev
+# Task 1 runs the dbt medallion build against Unity Catalog; task 2 runs the triage agent.
+# Written for Databricks deployment but not validated against a live workspace from this repo.
+bundle:
+  name: supply-chain-exception-agent
+
+variables:
+  warehouse_id:
+    description: SQL warehouse used by the dbt task
+  catalog:
+    default: supply_chain
+
+resources:
+  jobs:
+    exception_loop:
+      name: supply-chain-exception-loop
+      schedule:
+        quartz_cron_expression: "0 0 * * * ?"     # hourly
+        timezone_id: America/New_York
+      tasks:
+        - task_key: dbt_build
+          dbt_task:
+            project_directory: dbt
+            commands: ["dbt deps", "dbt build --target databricks --vars '{as_of: now}'"]
+            warehouse_id: ${var.warehouse_id}
+            catalog: ${var.catalog}
+          environment_key: dbt_env
+        - task_key: triage_exceptions
+          depends_on: [{task_key: dbt_build}]
+          spark_python_task:
+            python_file: src/scops/__main__.py
+            parameters: ["run", "--skip-dbt"]
+          environment_key: agent_env
+      environments:
+        - environment_key: dbt_env
+          spec: {client: "1", dependencies: ["dbt-databricks>=1.8"]}
+        - environment_key: agent_env
+          spec: {client: "1", dependencies: ["mlflow>=3.4", "openai>=1.40", "duckdb>=1.1"]}
+
+targets:
+  dev:
+    mode: development
+    default: true
